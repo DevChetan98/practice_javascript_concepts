@@ -84,3 +84,9 @@
     // let fruits = ['apple','banana','orange','banana','grape'];
     // console.log(fruits.lastIndexOf('banana'));//3
     // console.log(fruits.lastIndexOf('coco'));//-1
+
+//includes():
+
+// let fruits = ['apple','banana','orange','grape'];
+// console.log(fruits.includes('orange'));//true
+// console.log(fruits.includes('coco'));//false
