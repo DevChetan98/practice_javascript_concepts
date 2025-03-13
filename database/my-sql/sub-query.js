@@ -9,3 +9,4 @@
 // Q.6. us employee ka name find karna hai jo aise department me kaam karta hai jaha par 2 se kam deparatment hai
 // SELECT department, name FROM `employee_details` WHERE department IN(SELECT department FROM employee_details GROUP by department HAVING COUNT(*)<2);
 // Q.7. write a query to display highest salary department wise and name of emp who is taking that salary.
+// SELECT name,department,salary FROM employee_details WHERE salary IN(SELECT MAX(salary) FROM employee_details GROUP BY department);
