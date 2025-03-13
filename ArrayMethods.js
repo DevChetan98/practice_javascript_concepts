@@ -84,3 +84,66 @@
     // let fruits = ['apple','banana','orange','banana','grape'];
     // console.log(fruits.lastIndexOf('banana'));//3
     // console.log(fruits.lastIndexOf('coco'));//-1
+
+//include():
+
+// let fruits = ['apple', 'banana', 'orange','grape'];
+// console.log(fruits.includes('orange'));//true
+// console.log(fruits.includes('coco'));//false
+
+// let fruits = ['apple','banana','orange'];
+// let fruitsString = fruits.join(',');
+// console.log(fruitsString);//'apple,banana,orange'
+// console.log(typeof fruitsString);// string
+
+// reverse():
+// let fruits = ['apple','banana','orange'];
+// fruits.reverse();
+// console.log(fruits);
+
+
+// sort():
+// let fruits = ['orange','apple','banana','grape'];
+// fruits.sort();
+// console.log(fruits);
+
+// let numbers = [5,2,8,1,3];
+// numbers.sort();
+// console.log(numbers);
+
+// filter();
+
+// let numbers = [1,2,3,4,5,6];
+// let evenNumber = numbers.filter(num=>num%2===0);
+// console.log(evenNumber);//[2,4,6]
+
+// map():
+// let numbers = [1,2,3];
+// let squaredNumbers = numbers.map(num=>num*num);
+// console.log(squaredNumbers);
+
+// forEach():
+// let fruits = ['apple','banana','orange'];
+// fruits.forEach(fruit=>console.log(fruit));
+//apple
+//banana
+//orange
+
+// reduce():
+
+// let numbers = [1,2,3,4,5];
+// let sum = numbers.reduce((accumulator,currentValue)=>accumulator+currentValue,0);
+// console.log(sum);//15
+// console.log(numbers);//[1,2,3,4,5]
+
+
+// every():
+
+// let numbers = [2,4,6,8,10];
+// let allEven = numbers.every(num=>num%2===0);
+// console.log(allEven);//true
+
+//some():
+let numbers= [1,3,5,7,9,10]
+let hashEvenNumber = numbers.some(num=>num%2===0);
+console.log(hashEvenNumber);
