@@ -147,3 +147,8 @@
 let numbers= [1,3,5,7,9,10]
 let hashEvenNumber = numbers.some(num=>num%2===0);
 console.log(hashEvenNumber);
+//includes():
+
+// let fruits = ['apple','banana','orange','grape'];
+// console.log(fruits.includes('orange'));//true
+// console.log(fruits.includes('coco'));//false

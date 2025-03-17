@@ -10,3 +10,8 @@ console.log(fullName);
 
 var fullName= 'chetan pawar'
 // console.log(fullName);
+
+// Definition : 
+// The TDZ refers to the time between entering a scope and the variable’s declaration line,
+//  during which accessing variables declared with let or const will result in a ReferenceError.
+
