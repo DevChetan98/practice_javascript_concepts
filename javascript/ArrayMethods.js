@@ -27,11 +27,11 @@
 // console.log(fruits); //['apple','banana','orange','grap']
 
 //pop():
-// let fruits = ['apple','banana','orange'];
-// let removeFruit=fruits.pop();
-// console.log("removeFruit : ",removeFruit);//'orange'
-// console.log(typeof removeFruit); //string
-// console.log( typeof fruits); //['apple','banana']
+let fruits = ['apple','banana','orange'];
+let removeFruit=fruits.pop();
+console.log("removeFruit : ",removeFruit);//'orange'
+console.log(typeof removeFruit); //string
+console.log(fruits); //['apple','banana']
 
 
 //shift():
@@ -54,9 +54,9 @@
     // let vegetables = ['carrot','spinch'];
     // let combined = fruits.concat(vegetables);
 
-    // console.log(combined);
     // console.log(fruits);
     // console.log(vegetables);
+    // console.log(combined);
 
 //slice():
 
