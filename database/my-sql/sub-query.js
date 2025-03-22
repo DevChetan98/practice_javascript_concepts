@@ -10,3 +10,8 @@
 // SELECT department, name FROM `employee_details` WHERE department IN(SELECT department FROM employee_details GROUP by department HAVING COUNT(*)<2);
 // Q.7. write a query to display highest salary department wise and name of emp who is taking that salary.
 // SELECT name,department,salary FROM employee_details WHERE salary IN(SELECT MAX(salary) FROM employee_details GROUP BY department);
+
+// EXISTS/Not EXISTS
+// SELECT * FROM employee WHERE EXISTS(SELECT * FROM `department` WHERE department.eid=employee.id);
+// IN/NOT IN
+// SELECT * FROM employee WHERE not in (SELECT * FROM `department` WHERE department.eid=employee.id);
